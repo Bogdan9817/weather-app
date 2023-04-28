@@ -5,12 +5,12 @@ import CityPage from "../pages/city/CityPage";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/weather-app",
     element: <MainPage />,
     errorElement: <NotFound />,
   },
   {
-    path: "/:cityName",
+    path: "/weather-app/:cityName",
     element: <CityPage />,
   },
 ]);
