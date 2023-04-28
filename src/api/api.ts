@@ -16,7 +16,7 @@ export interface FetchParams {
 }
 
 const weatherApi = axios.create({
-  baseURL: "http://api.openweathermap.org",
+  baseURL: "https://api.openweathermap.org",
   params: {
     appid: "80d7e0896fca883842258d8d9346e5fa",
   },
