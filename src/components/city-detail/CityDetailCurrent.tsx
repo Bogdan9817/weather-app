@@ -11,7 +11,7 @@ export default function CityDetailCurrent(currentWeatherData: any) {
       <div className='row wrappable w-100 justify-sb'>
         <div className='row left'>
           <img
-            src={`http://openweathermap.org/img/wn/${icon}.png`}
+            src={`https://openweathermap.org/img/wn/${icon}.png`}
             alt={description}
           />
           <div className='column'>

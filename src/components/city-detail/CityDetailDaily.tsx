@@ -21,7 +21,7 @@ export default function CityDetailDaily(dailyWeatherData: any) {
       <div className='row w-100 justify-sb'>
         <span className='fw-300'>{main}</span>
         <img
-          src={`http://openweathermap.org/img/wn/${icon}.png`}
+          src={`https://openweathermap.org/img/wn/${icon}.png`}
           alt={description}
         />
       </div>
