@@ -1,0 +1,15 @@
+.not-found-page {
+    h2 {
+        font-size: 48px;
+        text-align: center;
+    }
+    p {
+        text-align: center;
+        font-size: 18px;
+
+        span:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+}

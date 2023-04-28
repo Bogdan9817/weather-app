@@ -1,0 +1,18 @@
+@import '../../globals/variables.scss';
+.add-city {
+    @include flex;
+    padding: 8px;
+    width: 300px;
+    align-self: center;
+    background-color: $color-primary100;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.5);
+    border-radius: 4px;
+    .city-input {
+        background-color: $color-primary50;
+        padding: 0 8px;
+        vertical-align: middle;
+        border-radius: 4px;
+        margin-right: 8px;
+    }
+    margin-bottom: 6em;
+}

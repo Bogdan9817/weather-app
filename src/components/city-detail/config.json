@@ -1,0 +1,41 @@
+{
+    "responsiveDaily": {
+        "desktop": {
+          "breakpoint": { "max": 3000, "min": 1024 },
+          "items": 3
+        },
+        "tablet": {
+          "breakpoint": { "max": 1024, "min": 464 },
+          "items": 2
+        },
+        "mobile": {
+          "breakpoint": { "max": 464, "min": 0 },
+          "items": 1
+        }
+    },
+    "responsiveHourly": {
+        "desktop": {
+            "breakpoint": { "max": 3000, "min": 1024 },
+            "items":12
+        },
+        "tablet": {
+            "breakpoint": { "max": 1024, "min": 464 },
+            "items": 8
+        },
+        "mobile": {
+            "breakpoint": { "max": 464, "min": 0 },
+            "items": 5
+        }
+    },
+    "iconSize": 36,
+    "daily": {
+        "values": {
+            "min":"Min",
+            "max":"Max",
+            "morning":"Morning",
+            "day":"Day",
+            "eve":"Evening",
+            "night":"Night"
+        }
+    }
+}

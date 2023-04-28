@@ -1,0 +1,10 @@
+{
+    "values": {
+        "temp":"Temperature",
+        "weather": "Weather"
+    },
+    "btns": {
+        "deleteBtnTitle":"Delete",
+        "reloadBtnTitle":"Reload"
+    }
+}

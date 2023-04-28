@@ -1,0 +1,12 @@
+@import '../../globals/variables.scss';
+
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    >.cities-container {
+        margin:auto;
+        @include flex;
+        flex-wrap:wrap;
+    }
+}

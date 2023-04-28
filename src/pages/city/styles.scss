@@ -1,0 +1,13 @@
+@import '../../globals/variables.scss';
+
+.city-container {
+    border-radius: 4px;
+    margin: 24px;
+    padding: 24px 12px;
+    background-color: #FAF8F1;
+    border-radius: 4px;
+
+    .header {
+        @include flex(row, space-between);
+    }
+}

@@ -1,0 +1,48 @@
+@import './variables.scss';
+
+.row {
+    @include flex;
+}
+
+.column {
+    @include flex(column);
+}
+
+.justify{
+    &-center {
+        justify-content: center;
+    }
+    &-sb {
+        justify-content: space-between;
+    }
+
+}
+
+.wrappable {
+    flex-wrap: wrap;
+}
+
+.w{
+    &-100 {
+        width: 100%;
+    }
+
+    &-auto {
+        width: auto;
+    }
+}
+
+.fw{
+    &-300 {
+        font-weight: 300;
+    }
+    &-400 {
+        font-weight: 400;
+    }
+    &-500 {
+        font-weight: 500;
+    }
+    &-700 {
+        font-weight: 700;
+    }
+}

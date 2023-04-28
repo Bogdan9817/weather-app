@@ -1,0 +1,66 @@
+@import '../../globals/variables.scss';
+
+.city-detail {
+    &-daily {
+        border: 2px solid $color-accent;
+        border-radius: 4px;
+        .daily-data-card {
+            border-right: 2px solid $color-accent;
+            padding: 12px;
+            .header {
+                align-self: end;
+            }
+            .row {
+                margin: 4px;
+            }
+    
+            .daily-values {
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+    &-current {
+        margin: 12px auto;
+        .left {
+            flex:1;
+            justify-content: flex-start;
+        }
+        .right {
+            flex:3;
+        }
+        .temp {
+            margin: 8px 0 8px 4px;
+            text-align: end;
+            &.current {
+                font-size: 48px;
+            }
+        }
+        .weather {
+            width: 100%;
+            text-align: end;
+        }
+    }
+
+    &-hour-graphic {
+        height: auto;
+        margin: 10px auto;
+        .hour-column {
+            height: 100%;
+            @include flex(column, center);
+            .hour-bar {
+                flex:3;
+               display: flex;
+               flex-direction: column;
+               justify-content: flex-end;
+               width: 100%;
+               height: 100%;
+            }
+            .hour-temp, .hour-bar, .hour-time {
+                flex: 1
+            }
+        }
+    }
+}
+
+
